@@ -56,12 +56,34 @@ Did you read the Launch School post? Great! Then most of what is in this file sh
 As a quick test, answer the following questions:
 
 - What is minitest?
+
+   minitest is a testing framework which comes with every standard Ruby distribution. It provides assertion and expectation based interfaces 
+   
 - what is a Domain-Specific Language (DSL)?
+
+  Domain-Specific Language is a computer language specific to a particular application domain. 
+  
+  Each one is unique and must be learned for it's specific application.
+  
 - What does assert_equal mean? How many arguments does it expect?
+
+  assert_equal means that you are comparing two values and expecrting that they will be equivalent in the test you are running.
+  
+  It expects two arguments, one for each value.
+  
 - Will assert_equal true, "true" pass?
 - How do you “run” a test file?
+
+  Test files are run using the commaned line.
+  
 - is a “failing” test a bad thing?
+
+  Not necessarily. Failing a test simply means that the assertion you made in the test was not true. This means that the code being tested is running correctly but that it is not producing the desired/expected outcome.
+  
 - does minitest run all the tests in order?
+
+  Not unless you explicity set it up to do so.
+  
 - Find a list of minitest assertions (google it!). What’s a cool one you found?
 
 Awesome. If you can answer all of those questions, you’ve got your head wrapped around Minitest. Onward!
